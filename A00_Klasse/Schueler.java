@@ -2,7 +2,7 @@
 
 class Schueler{
 
-    int groesse;
+    private int groesse;
     String name;
     
     //Konstruktor
@@ -14,5 +14,9 @@ class Schueler{
     //Getter
     public String getName(){
         return name;
+    }
+
+    public int getGroesse() {
+        return groesse;
     }
 }

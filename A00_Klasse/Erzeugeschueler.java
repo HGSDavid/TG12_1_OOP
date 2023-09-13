@@ -8,8 +8,9 @@
 
         Schueler s1 = new Schueler();
 
-        System.out.println("bla");
 
+        System.out.println(s1.getName());
+        System.out.println(s1.getGroesse());
 
     }
 }
