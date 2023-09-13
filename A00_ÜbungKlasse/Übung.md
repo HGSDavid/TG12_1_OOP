@@ -7,3 +7,5 @@
     -> Sichtbarkeit auf private
 4. Alle Attribute sollen lesbar sein.
     -> Getter einfügen
+5. Das Kürzel muss immer genau zwei Zeichen lang sein. 
+    -> SetMethode
