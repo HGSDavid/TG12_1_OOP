@@ -4,12 +4,13 @@ public class Lehrer {
     
     //Objektattribute
     private String kuerzel;
-
-    
-
     private String name;
-
     private int alter;
+
+    public Lehrer(){
+        name = "Mustermann";
+        setKuerzel("mm");
+    }
 
     //Setter
 

@@ -9,3 +9,4 @@
     -> Getter einfügen
 5. Das Kürzel muss immer genau zwei Zeichen lang sein. 
     -> SetMethode
+6. Ergänzen sie einen Konstruktor, der alle Attribute korrekt initialisiert.
