@@ -1,3 +1,5 @@
+//Bauplan für Schülerobjekte
+
 class Schueler{
 
     int groesse;
