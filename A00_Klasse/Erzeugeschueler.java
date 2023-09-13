@@ -8,7 +8,7 @@
 
         Schueler s1 = new Schueler();
 
-        syso
+        System.out.println("bla");
 
 
     }
