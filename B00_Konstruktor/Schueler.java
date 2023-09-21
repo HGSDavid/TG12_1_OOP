@@ -7,8 +7,11 @@ public class Schueler {
     String email;
 
     //Konstruktor
-    public Schueler() {
-        Schueler s1 = new Schueler (String name, String vorname);
+    public Schueler(String name, String vorname, String email) {
+        
+        this.name = name;
+        this.vorname = vorname;
+        this.email = email;
     }
 
     //Getter
