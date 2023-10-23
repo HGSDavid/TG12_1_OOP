@@ -37,4 +37,9 @@ void setup ()
 }
 TimerInterrupt
 static HardwareTimer t_blink = HardwareTimer(TIM2);
+
+void setup ()
+{
+    t_blink.attachInterrupt(ISR_Blink);
+}
 ````
