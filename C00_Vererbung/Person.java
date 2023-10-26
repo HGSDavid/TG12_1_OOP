@@ -20,7 +20,7 @@ public class Person {
 
     @Override                                       //erstellt mit str + . (generate toString)
     public String toString() {
-        return "Person [name=" + name + ", vorname=" + vorname + ", id=" + id + "]";
+        return "name=" + name + ", vorname=" + vorname + ", id=" + id;
     }
 
     
