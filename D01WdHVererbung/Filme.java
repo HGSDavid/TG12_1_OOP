@@ -32,5 +32,11 @@ public class Filme {
     public void setDauer(int dauer) {
         this.dauer = dauer;
     }
+
+    @Override
+    public String toString() {
+        return "Filme [titel=" + titel + ", dauer=" + dauer + "]";
+    }
+    
     
 }
