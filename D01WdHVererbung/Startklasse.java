@@ -19,7 +19,7 @@ public class Startklasse {
         terraX.setBeschreibung("Entstehung der Dajana");
         
         for (Filme filme : dieFilme) {
-            System.out.println(filme.getDauer());
+            System.out.println(filme);
         }
     }
 }
