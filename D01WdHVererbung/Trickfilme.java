@@ -1,6 +1,7 @@
 package D01WdHVererbung;
 
 public class Trickfilme extends Filme{
+    
     //Objektattribute
     int mindestalter;
 
