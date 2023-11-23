@@ -17,5 +17,8 @@ public class Person {
         return derParkplatz.getNummer();
     }
 
-        
+    @Override
+    public String toString() {
+        return "Person [name=" + name + ", derParkplatz=" + derParkplatz + "]";
+    }
 }
