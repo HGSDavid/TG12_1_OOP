@@ -13,5 +13,7 @@ public class Startklasse {
 
         System.out.println("\nGehalt Mitarbeiter: \t\t" + m1.berechneGehalt());
         System.out.println("Gehalt Abteilungsleiter: \t" + a1.berechneGehalt());
+
+        s.close();
     }
 }

@@ -1,0 +1,47 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>156</x><y>234</y><w>299</w><h>182</h></coordinates><panel_attributes>Person
+--
+-name:txt
+--
++Person(name:txt, parkplatz:Parkplatz)
++getParkplatzNr():GZ
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>728</x><y>234</y><w>273</w><h>182</h></coordinates><panel_attributes>Parkplatz
+--
+ -anzahlerzeugterParkplatze=0:GZ_
+ -anzahlgeloschterParkplatze=0:GZ_
+-id:GZ
+-nummer:txt
+--
++Parkplatz(nr:txt)
++getId():GZ
++getParkplatzNummer():GZ
+_+getAnzahlParkplaetze():GZ_
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>442</x><y>299</y><w>312</w><h>65</h></coordinates><panel_attributes>lt=&lt;-
+r1=derParkplatz
+m1=1</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>468</x><y>442</y><w>312</w><h>169</h></coordinates><panel_attributes>_Multiplizität_
+d.h. die Anzahl der bekannten Objekte
+
+2      -&gt; genau 2 Objekte
+0..1  -&gt; 0 bis 1 Objekt
+*	-&gt; 0,1 oder viele Objekte
+
+
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>533</x><y>338</y><w>182</w><h>130</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>120;10;10;80</additional_attributes></element><element><id>UMLNote</id><coordinates><x>403</x><y>0</y><w>312</w><h>117</h></coordinates><panel_attributes>_Rollenname_
+ist der Variablenname in der Klasse Person.
+Per Konvention beginnen Rollennamen mit der...,die...oder das... und dem Klassennamen
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>559</x><y>104</y><w>130</w><h>221</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;10;80;150</additional_attributes></element><element><id>Relation</id><coordinates><x>910</x><y>156</y><w>91</w><h>143</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>50;10;10;90</additional_attributes></element><element><id>UMLNote</id><coordinates><x>767</x><y>0</y><w>429</w><h>169</h></coordinates><panel_attributes>_Klassenvariable_
+sind unabhängig von Objekten und werden direkt 
+initialisiert. Der Zugriff erfolgt über den Klassennamen
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>988</x><y>273</y><w>182</w><h>208</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>120;140;110;20;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>910</x><y>455</y><w>403</w><h>117</h></coordinates><panel_attributes>_Objektvariable_
+Der Zugriff erfolgt über den Objektnamen.
+Jedes Objekt hat einen eigen Wert in der Variablen.
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>0</x><y>442</y><w>273</w><h>143</h></coordinates><panel_attributes>_Delegationsmethode_
+ermittelt den Rückgabewert durch 
+einen Aufruf einer Methode
+ in einer anderen Klasse
+bg=light_gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>286</y><w>65</w><h>182</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>30;10;10;120</additional_attributes></element></diagram>
