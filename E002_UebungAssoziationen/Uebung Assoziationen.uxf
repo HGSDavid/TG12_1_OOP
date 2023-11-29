@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>240</y><w>220</w><h>350</h></coordinates><panel_attributes>Film
+--
+- titel:txt
+- dauer:GZ
+- fsk:GZ
+
+_- anzahlerzeugterFilme=0:GZ_
+_- anzahlgeloschterFilme=0:GZ_
+- id:GZ
+
+--
++ Film(titel:txt)
+
++ getTitel():txt
++ setTitel(neuerTitel:txt)
++ getDauer():GZ
++ setdauer(neueDauer:GZ)
++ getFsk():GZ
++ setFsk(neueFsk:GZ)
++ toString():txt
+
+_+getAnzahlFilme():GZ_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>240</y><w>180</w><h>220</h></coordinates><panel_attributes>Regisseur
+--
+- nachname:txt
+- vorname:txt
+- beschreibung:txt
+--
++ Regisseur(name:txt)
++ toString():txt
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>340</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+r1=derRegisseur
+m1=1</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element></diagram>
