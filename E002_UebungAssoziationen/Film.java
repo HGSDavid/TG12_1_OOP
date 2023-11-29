@@ -2,8 +2,11 @@ package E002_UebungAssoziationen;
 
 public class Film {
 
+    Regisseur derRegisseur;
+
     //Objektattribute
-    String titel;
+    private int id;
+    private String titel;
     private int dauer;
     private int fsk;
 
@@ -11,20 +14,24 @@ public class Film {
     private static int anzahlerzeugterFilme = 0;
     private static int anzahlgelöschterFilme = 0;
 
-    private static int anzahlFilme = 0;
-
     //Constructor
-    public Film(String titel, int dauer, int fsk) {
+    public Film(String titel, Regisseur r) {
         this.titel = titel;
-        this.dauer = dauer;
-        this.fsk = fsk;
-
+        
         //Parkplätze zählen
         anzahlerzeugterFilme ++;
-
+        id = anzahlerzeugterFilme;
     }
 
     //Getter und Setter
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getTitel() {
         return titel;
     }
@@ -63,9 +70,14 @@ public class Film {
         return "Film [titel=" + titel + ", dauer=" + dauer + ", fsk=" + fsk + "]";
     }
 
+    
     @Override
     protected void finalize() throws Throwable {
         anzahlgelöschterFilme++;
         System.out.println("Film gulasch");
+    }
+
+    public Regisseur getRegisseur() {
+        return derRegisseur;
     }
 }
