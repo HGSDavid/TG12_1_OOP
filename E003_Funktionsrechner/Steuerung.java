@@ -4,13 +4,21 @@ public class Steuerung{
     Oberflache dieOberflache;
     Funktion dieFunktion;
 
-    protected double a;
-    protected double b;
-    protected double c;
-    protected double xMin;
-    protected double xMax;
-
     public Steuerung(Steuerung steuerung){
-        dieSteuerung = steuerung;
+        dieOberflache = new Oberflache(this);
+    }
+
+    private void ermittleFlache(){
+
+    }
+
+    private void tastaturEreignis(){
+
+    }
+
+    private void beendeProgramm(){
+        dieFunktion = null;
+        dieOberflache = null;
+        System.exit(0);
     }
 }
