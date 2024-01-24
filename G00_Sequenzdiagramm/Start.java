@@ -1,7 +1,5 @@
 package G00_Sequenzdiagramm;
 
-import G00_Sequenzdiagramm.Klasse1;
-
 public class Start {
     public static void main(String[] args) {
         //Objekt Object1 erstellen

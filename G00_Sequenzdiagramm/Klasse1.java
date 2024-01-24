@@ -1,7 +1,5 @@
 package G00_Sequenzdiagramm;
 
-import G00_Sequenzdiagramm.Klasse2;
-
 public class Klasse1 {
     Klasse2 object2;
 
