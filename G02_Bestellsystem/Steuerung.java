@@ -7,6 +7,7 @@ public class Steuerung {
 
     public Steuerung(){
         derTisch = new Tisch[10];
+        derTisch[0] = new Tisch();
         dasProdukt = new Produkt[6];
 
         dasProdukt[0] = new Produkt(1, 1, "Cola");
