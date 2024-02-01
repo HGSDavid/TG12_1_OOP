@@ -1,10 +1,16 @@
 package G02_Bestellsystem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Tisch {
+    List<Bestellposition> dieBestellpositionen;
+
+    public Tisch(){
+        dieBestellpositionen = new ArrayList<>();
+    }
 
     public void bestellen(int persNr, Produkt produkt) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'bestellen'");
+        dieBestellpositionen.add(new Bestellposition(persNr, produkt));
     }
-    
 }

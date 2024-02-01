@@ -11,6 +11,9 @@ public class Steuerung {
 
     public void bestellen(int tischNr, int persNr, int prodNr) {
         derTisch[tischNr].bestellen(persNr, dasProdukt[prodNr]);
+
+        double preis = dasProdukt[prodNr].getPreis();
+        String bezeichnung = dasProdukt[prodNr].getBezeichnung();
     }
     
 }
