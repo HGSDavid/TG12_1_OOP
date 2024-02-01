@@ -7,6 +7,8 @@ public class GUI {
 
     public GUI(Steuerung pSteuerung){
         dieSteuerung = pSteuerung;
+
+        clickBestellen();
     }
 
     public void clickBestellen(){
@@ -16,6 +18,10 @@ public class GUI {
         int prodNr = 1;
 
         dieSteuerung.bestellen(tischNr, persNr, prodNr);
+    }
+
+    public void anzeigenBestellposition(int persNr, int prodNr, String bezeichnung, double preis) {
+        System.out.println("Bestellposition anzeigen");
     }
     
 }
