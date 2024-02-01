@@ -1,0 +1,4 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>430</x><y>310</y><w>100</w><h>70</h></coordinates><panel_attributes>GUI
+-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>350</y><w>100</w><h>80</h></coordinates><panel_attributes>Steuerung
+-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>390</y><w>100</w><h>70</h></coordinates><panel_attributes>Tisch
+-</panel_attributes><additional_attributes></additional_attributes></element></diagram>
